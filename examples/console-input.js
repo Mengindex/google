@@ -6,7 +6,7 @@ const GoogleAssistant = require('../index');
 
 const config = {
   auth: {
-    keyFilePath: path.resolve(__dirname, 'credentials.json'),
+    keyFilePath: path.resolve(__dirname, 'client_secret.json'),
     savedTokensPath: path.resolve(__dirname, 'tokens.json'), // where you want the tokens to be saved
   },
   conversation: {
